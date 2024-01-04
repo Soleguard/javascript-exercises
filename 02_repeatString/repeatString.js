@@ -1,5 +1,11 @@
 const repeatString = function(word, number) {
-    
+
+    // Check for negative numbers
+    if (number < 0)
+    {
+        return 'ERROR';
+    }
+
     let repeated_String = '';
 
     // Loop through given number
@@ -9,7 +15,6 @@ const repeatString = function(word, number) {
     }
 
     return repeated_String;
-
 };
 
 // Do not edit below this line
