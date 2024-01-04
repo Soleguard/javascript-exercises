@@ -6,6 +6,12 @@ const repeatString = function(word, number) {
         return 'ERROR';
     }
 
+    // Check for empty strings
+    else if (number == '')
+    {
+        return '';
+    }
+
     let repeated_String = '';
 
     // Loop through given number
