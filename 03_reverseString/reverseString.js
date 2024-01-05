@@ -1,5 +1,11 @@
 const reverseString = function(word) {
 
+    // Check for empty string
+    if (word == '')
+    {
+        return word;
+    }
+
     // Split word into array of chars
     let split_Word = word.split('');
 
