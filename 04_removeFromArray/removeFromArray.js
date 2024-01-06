@@ -1,13 +1,8 @@
-const removeFromArray = function(array, element) {
-    
-    // Declare variable (anonymous function) for new array
-    const new_Array = array.filter(function(given) {
-        return given !== element;
-    });
+var removeFromArray = function(array, ...args) {
 
-    // Return new array
-    return new_Array;
-};
+  return array.filter(val => !args.includes(val))
+  
+}
 
 // Do not edit below this line
 module.exports = removeFromArray;
