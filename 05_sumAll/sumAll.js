@@ -1,6 +1,6 @@
 const sumAll = function(start, stop) {
 
-    let sum;
+    let sum = 0;
     let larger_Number;
     let smaller_Number;
 
