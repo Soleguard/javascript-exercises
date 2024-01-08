@@ -10,7 +10,7 @@ const convertToCelsius = function(temperature) {
   result = result.toFixed(1);
 
   // Convert to number
-  result = Number(result)
+  result = Number(result);
 
   // Return result
   return result;
@@ -29,7 +29,7 @@ const convertToFahrenheit = function(temperature) {
   result = result.toFixed(1);
 
   // Convert to number
-  result = Number(result)
+  result = Number(result);
 
   // Return result
   return result;
