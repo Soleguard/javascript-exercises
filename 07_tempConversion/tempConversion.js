@@ -7,10 +7,10 @@ const convertToCelsius = function(temperature) {
   result = ((temperature) - 32) * (5 / 9);
 
   // Round to one decimal
-  result.toFixed(1);
+  result = result.toFixed(1);
 
   // Convert to number
-  Number(result)
+  result = Number(result)
 
   // Return result
   return result;
@@ -26,10 +26,10 @@ const convertToFahrenheit = function(temperature) {
   result = ((temperature) * (9 / 5)) + 32;
 
   // Round to one decimal
-  result.toFixed(1);
+  result = result.toFixed(1);
 
   // Convert to number
-  Number(result)
+  result = Number(result)
 
   // Return result
   return result;
